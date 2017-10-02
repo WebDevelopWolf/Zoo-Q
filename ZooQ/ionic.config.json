@@ -1,0 +1,8 @@
+{
+  "name": "ZooQ",
+  "app_id": "7c4aa41f",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

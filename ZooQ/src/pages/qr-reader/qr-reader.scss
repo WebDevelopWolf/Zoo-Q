@@ -1,0 +1,31 @@
+page-qr-reader {
+    p {
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    ul {
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .logo {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+
+    .user {
+        color: #2B823A;
+        text-align: center;
+    }
+
+    .scan {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+}

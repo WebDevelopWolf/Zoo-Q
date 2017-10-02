@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Welcome to ZooQ</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <img class="logo" src="assets/images/zoo-q-logo.jpg" />
+  <p class="user">Welcome user</p>
+  <button class="scan" ion-button round icon-left (click)="scanQrCode()"><ion-icon name="qr-scanner"></ion-icon> Scan Code</button>
+  <p>Only scan your enclosure code if you have completed the following:</p>
+  <ul>
+    <li>Enclosure Cleaning and Old Food Removed</li>
+    <li>Water Provided</li>
+    <li>Food Provided</li>
+    <li>Enrichment Provided</li>
+  </ul>
+  <p>Once this code has been scanned, it becomes a unique signature to state the job has been finished to the ZooQ high standard.</p>
+</ion-content>
